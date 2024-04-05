@@ -1,0 +1,62 @@
+@media screen and (max-width :676px)
+{
+.header-section{
+    flex-direction: column;
+    margin-left: 50px;
+}
+.items-container{
+    flex-direction: column;
+    margin-left: 50px;
+    gap: 20px;
+}
+.banner-section{
+    flex-direction: column;
+    margin-top: 40px;
+    gap: 15px;
+  
+  }
+.text-container{
+    width: 50%;
+}
+.banner-image-container{
+    
+    width: 50%;
+
+}
+.grid-container {
+    grid-template-columns: repeat(1, 1fr); /* Single column for smaller screens */
+  }
+   .image {
+    width: 33.33%;
+    margin-right: 20px; /* Adjust spacing between images */
+  }
+
+  .text {
+    position: static;
+    background: none;
+    padding: 0;
+    text-align: left;
+  }
+  .row{
+    flex-direction: row;
+  }
+  .image, .text {
+    flex: 1;
+  }
+  .banner-section{
+    flex-direction: row;
+
+  }
+  .text-container .banner-image-container{
+    flex: 1;
+
+  }
+  .banner-section{
+    flex-direction: row;
+
+  }
+  .subscribe-form.banner-image-container{
+    flex: 1;
+
+  }
+}
